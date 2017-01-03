@@ -2,14 +2,11 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JComponent;
-import javax.swing.JPanel ;
-import java.awt.event.MouseListener ;
-import java.awt.event.MouseMotionListener;
-import java.awt.event.MouseEvent ;
 import java.util.*;
 
 
 
+@SuppressWarnings("serial")
 public class SemaphoreComponent extends JComponent {
 
   //this will act as the 'queue' of customers
